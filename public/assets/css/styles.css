@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", "Roboto";
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+.container main {
+  width: 100%;
+  min-height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+main form {
+  width: 450px;
+  padding: 20px;
+  background-color: white;
+  border: 0.6px solid rgba(0, 0, 0, 0.219);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  margin: 10px  ;
+}
+form .form-image {
+  margin: 10px;
+}
+form .form-input {
+  width: 80%;
+  height: 40px;
+  font-size: 14px;
+  margin: 10px 5px;
+  padding: 7px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: 0.6px solid rgba(0, 0, 0, 0.219);
+  outline: none;  
+  background-color: #f8f8f8;
+}
+
+form button{
+  width: 80%;
+  height: 40px;
+  font-size: 16px;
+  background-color: rgba(166, 105, 223, 0.514);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 20px 10px;
+}
+form .button{
+  background-color: blueviolet;
+}
+form .form-link-error{
+  color: rgba(0, 0, 0, 0.63) ;
+  font-size: 14px;
+}
+form .font-link{
+  font-size: 14px;
+}
+
+@media(max-width: 756px){
+  .container form{width: 90%; margin: 5px  0;}
+}

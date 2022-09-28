@@ -1,0 +1,22 @@
+{
+  "name": "instafishing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "edge": "^7.10.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-edge": "^2.0.2",
+    "ip": "^2.0.0",
+    "mongoose": "^6.6.2",
+    "nodemon": "^2.0.20"
+  }
+}

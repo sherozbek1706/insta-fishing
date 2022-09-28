@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/640px-Instagram-Icon.png">
+  <title>INSTAGRAM</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png" alt=""> -->
+    <main>
+      <form id="form" method="POST" action="/users">
+        <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"
+          class="form-image" alt="">
+        <input 
+          type="text" 
+          class="form-input" 
+          id="username"
+          name="username"
+          placeholder="Tелефон , имя пользователя или эл.адрес"  
+          required>
+
+
+        <input 
+          type="password" 
+          class="form-input" 
+          id="password" 
+          name="password"
+          placeholder="Пароль" 
+          required>
+
+
+        <button type="submit" id="button" disabled>Войти</button>
+        <a href="!#" class="form-link-error">Забыли пароль?</a>
+      </form>
+      <form action="">
+        <div>
+          <a href="#!" class="form-link-error">У вас ещё нет аккаунта?</a>
+          <a href="#!" class="font-link">Зарегистрироваться</a>
+        </div>
+      </form>
+    </main>
+  </div>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
